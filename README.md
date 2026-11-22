@@ -199,8 +199,8 @@ streamlit run app.py
 4. Add `DATABASE_URL` and `GOOGLE_API_KEY` under **Environment Variables**.
 
 ### Live Links
-* **Executive Dashboard (Streamlit Cloud):** `[https://<your-app-name>.streamlit.app](https://causelith-lgvzhtecqciije9x64yrae.streamlit.app/)` *(update after deployment)*
-* **REST API & Swagger Docs (Render):** `https://<your-service-name>.onrender.com/docs` *(update after deployment)*
+* **Executive Dashboard (Streamlit Cloud):** [Open Causelith Dashboard]([PASTE_YOUR_EXACT_STREAMLIT_URL_HERE](https://causelith-lgvzhtecqciije9x64yrae.streamlit.app/))
+* **REST API & Swagger Docs (Render):** [Open Live Swagger API](https://causelith.onrender.com/docs)
 
 ---
 
