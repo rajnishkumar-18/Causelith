@@ -37,6 +37,16 @@ class InvestigateRequest(BaseModel):
     persist_to_db: bool = Field(default=False, description="Persist the new report into causal_insights.")
 
 
+@app.get("/")
+def root():
+    return {
+        "service": "Causelith — Autonomous Causal BI & Agentic RAG Engine",
+        "status": "online",
+        "docs": "/docs",
+        "health": "/health",
+    }
+
+
 @app.get("/health")
 def health_check():
     return {"status": "healthy", "service": "causelith-api", "version": "1.0.0"}
